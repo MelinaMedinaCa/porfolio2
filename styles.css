@@ -1,0 +1,34 @@
+
+.redes a {
+    color: #444; /* Cambiá el color */
+  }
+  
+  .redes a:hover {
+    color: #0077b5; /* Color al pasar el mouse, por ejemplo LinkedIn azul */
+  }
+  #habilidades, #proyectos{
+    min-height: 100vh;
+  }
+  header {
+    min-height: 100vh;
+  }
+  .img-perfil {
+    max-width: 200px;
+  }
+  
+  @media (max-width: 575.98px) {
+    .img-perfil {
+      max-width: 140px;
+    }
+  }
+  .list-group-item {
+    background-color: transparent !important;
+  }
+
+  .img-proyecto {
+    height: 200px;
+    object-fit: cover;
+  }
+
+
+  
