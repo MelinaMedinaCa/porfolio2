@@ -1,6 +1,6 @@
 emailjs.init("xTMp9E14UrFGtT-sx");
 
-const form = document.getElementById("contacto");
+const form = document.getElementById("formulario-contacto");
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
